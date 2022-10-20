@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Tower</title>
+  <link rel="stylesheet" href="../src/resourcesGames/towerBlocks/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<meta name="viewport" content="width=device-width,user-scalable=no">
+
+<div id="container">
+		<div id="game">
+		
+		</div>
+		<div id="score">0</div>
+		<div id="instructions">Oprime click o barra espaciadora para dejar bloque</div>
+		<div class="game-over">
+			<h2>Juego terminado</h2>
+			<p>Oprime click o barra espaciadora para reiniciar</p>
+			</div>
+		
+		<div class="game-ready">
+			<div id="start-button">
+				Iniciar
+			</div>
+			<br>
+			<div class="box">
+				<a class="no-link" href="../index.html">
+					Volver
+				
+			</a>
+			</div>
+	</div>
+
+
+</div>
+<!-- partial -->
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script>
+<script type="module" src="../src/resourcesGames/towerBlocks/scripts/Game.js"></script>
+
+</body>
+</html>
