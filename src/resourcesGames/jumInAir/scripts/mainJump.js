@@ -39,9 +39,9 @@ var dinoState = dinoGlide;
 var minBoneHeight = -330;
 var maxBoneHeight = -160;
 
-var scrollSpeed = -3;
-var gravity = 0.4;
-var lift = -8;
+var scrollSpeed = -7;
+var gravity = 0.5;
+var lift = -7;
 var velocity = 0;
 
 var start = false;
@@ -49,14 +49,14 @@ var gameOver = false;
 var score = 0;
 
 var bonePtr = 0;
-var boneStart = 400;
+var boneStart = 600;
 var flyGap = 180;
-var boneGap = 280;
+var boneGap = 220;
 var bones = [
   { x: boneStart, y: getRandomHeight(minBoneHeight, maxBoneHeight) },
   { x: boneStart + boneGap, y: getRandomHeight(minBoneHeight, maxBoneHeight) },
   {
-    x: boneStart + 2 * boneGap,
+    x: boneStart + 2  * boneGap,
     y: getRandomHeight(minBoneHeight, maxBoneHeight)
   }
 ];
@@ -108,7 +108,7 @@ function replay() {
   gameOver = false;
 
   score = 0;
-  velocity = 0;
+  velocity = 10;
 
   dinoPos_X = 100;
   dinoPos_Y = 250;
