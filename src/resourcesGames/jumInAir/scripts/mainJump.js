@@ -31,8 +31,8 @@ var spriteOffset_Y = -25;
 
 var fgPos_X = 0;
 
-var dinoPos_X = 100;
-var dinoPos_Y = 250;
+var dinoPos_X = 500;
+var dinoPos_Y = 500;
 var dinoAngle = 0;
 var dinoState = dinoGlide;
 
@@ -44,8 +44,8 @@ var gravity = 0.5;
 var lift = -7;
 var velocity = 0;
 
-var start = false;
-var gameOver = false;
+var start = true;
+var gameOver = true;
 var score = 0;
 
 var bonePtr = 0;
@@ -70,6 +70,7 @@ function playerInput() {
     start = true;
     velocity = lift;
     dinoAngle = -20;
+    
     document.getElementById("ctrl-ctn").style.opacity = 0;
   } else {
     if (!gameOver) {
@@ -104,6 +105,7 @@ function checkCollision() {
 }
 
 function replay() {
+
   start = false;
   gameOver = false;
 
@@ -168,7 +170,7 @@ function update() {
     if (!gameOver) {
       for (var i = 0; i < bones.length; i++) {
         // scroll bones across screen
-        bones[i].x += scrollSpeed;
+        bones[i].x += scrollSpeed ;
 
         // reassign bone object XY after it leaves screen
         if (bones[i].x <= -topBone.width) {
@@ -230,7 +232,10 @@ function render() {
   window.requestAnimationFrame(update);
 }
 
+
+
 document.addEventListener("keydown", function(e) {
+  
   var char = e.which || e.keyCode;
   if (char == 32 || char == 38) {
     e.preventDefault();
@@ -238,11 +243,23 @@ document.addEventListener("keydown", function(e) {
   }
 });
 
-document.addEventListener("touchstart", function() {
+document.addEventListener("click", function() {
   playerInput();
 });
 
-document.getElementById("replay").addEventListener("click", function() {
+document.getElementById("facil").addEventListener("click", function() {
+  gravity=0.3;
+  scrollSpeed=-5;
+  replay();
+});
+document.getElementById("medio").addEventListener("click", function() {
+  gravity=0.5;
+  scrollSpeed=-7;
+  replay();
+});
+document.getElementById("dificil").addEventListener("click", function() {
+  gravity=0.7;
+  scrollSpeed=-11;
   replay();
 });
 

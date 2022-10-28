@@ -57,10 +57,10 @@ canvas {
   background-color: #333333;
   color: #ffffff;
   padding: 10px 15px;
-  font-size: 40px;
+  font-size: 30px;
   letter-spacing: 4px;
   margin-left: 20px ;
-  margin-top: 200px;
+  margin-top: 180px;
 }
 
 #replay {
@@ -78,6 +78,57 @@ canvas {
   background-color: #ffffff;
   color: #333333;
   cursor: pointer;
+}
+#facil {
+  width: 100px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 4px;
+  transition: background-color 0.1s;
+  margin: 69px 10px ;
+}
+
+#facil:hover {
+  color: #333333;
+  cursor: pointer;
+}
+#medio {
+  width: 100px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 4px;
+  transition: background-color 0.1s;
+  margin: 69px 10px ;
+}
+
+#medio:hover {
+  color: #333333;
+  cursor: pointer;
+}
+#dificil {
+  width: 100px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 4px;
+  transition: background-color 0.1s;
+  margin: 69px 10px ;
+}
+
+#dificil:hover {
+  color: #333333;
+  cursor: pointer;
+}
+
+.dificultades{
+  display: flex;
+  
+}
+
+.img-dificultades:hover{ 
+  filter: invert(100%);
 }
 
 #ctrl-ctn {
