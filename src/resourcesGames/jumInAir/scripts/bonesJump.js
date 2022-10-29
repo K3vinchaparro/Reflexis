@@ -6,8 +6,8 @@ var boneOpen = `
 var boneMid = `
             <path id="path4855-9" stroke-linejoin="round" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto"
                 d="m12.343 397.5-0.274-343.44c-0.066-8.49-9.569-14.59-9.569-27.05 0-12.457 7.957-24.615 21.609-24.551 7.448 0.0614 12.539 3.9094 15.891 8.055 3.352-4.1456 8.443-7.9937 15.891-8.055 13.652-0.0637 21.609 12.094 21.609 24.551s-9.5033 18.557-9.5692 27.044l-0.27382 343.41z"
-                stroke="#333333" stroke-linecap="round" stroke-width="5" fill="#e9ddaf" />
-            <g stroke-linejoin="round" stroke="#333333" stroke-linecap="round" stroke-width="5" fill="none">
+                stroke="#333333" stroke-linecap="round" stroke-width="10" fill="#FFF4F1" />
+            <g stroke-linejoin="round" stroke="#FFC300 " stroke-width="20" fill="none">
                 <path id="path4855-2-0" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto"
                     d="m13.781 26.92a11.746 12.772 0 0 1 11.746 -12.78" />
                 <path id="path5025" d="m56.472 115.85v78.183" />

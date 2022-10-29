@@ -214,7 +214,7 @@ function render() {
     dinoPos_X + hitboxWidth / 2 + spriteOffset_X,
     dinoPos_Y + hitboxHeight / 2
   );
-  ctx.rotate(dinoAngle * Math.PI / 180);
+  ctx.rotate(dinoAngle * Math.PI / 720);
   ctx.drawImage(
     dinoState,
     -hitboxWidth / 2,

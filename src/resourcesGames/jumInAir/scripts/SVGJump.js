@@ -3,8 +3,8 @@ var bgSVG = `
                 height="640" viewBox="0 0 360 640.00001" width="360" version="1.1" xmlns:cc="http://creativecommons.org/ns#"
                 xmlns:dc="http://purl.org/dc/elements/1.1/">
                 <rect id="rect5189-8" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto"
-                    height="640" width="360" y="0" x="0" fill="#d7eef4" />
-                <g fill="#333333">
+                    height="640" width="500" y="0" x="0" fill="#d7eef4" />
+                <g fill="#1C3144">
                     <path id="path10590-3-7-0" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto"
                         d="m153.94 443.28c-1.6123 0-2.9194 1.2047-2.9194 2.6916v10.868c0 5.5017-2.7017 5.5166-4.9971 5.5166v-11.866c0-2.5165-1.8644-4.5558-4.1642-4.5558-2.2999 0-4.1643 2.0393-4.1643 4.5558v20.342c-2.2954 0-4.9971-0.015-4.9971-5.5165v-9.4802c0-1.4869-1.3071-2.6916-2.9193-2.6916-1.6123 0-2.9193 1.2047-2.9193 2.6916v12.354c0 5.6939 4.6336 9.0964 10.836 9.0964v15.213h8.3285v-23.689c6.2021 0 10.836-3.4012 10.836-9.0952v-13.743c0-1.4869-1.3071-2.6916-2.9193-2.6916z" />
                     <path id="path10590-3-5-8-4" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto"
@@ -22,10 +22,10 @@ var fgSVG = `
                 height="150" viewBox="0 0 360 150" width="360" version="1.1" xmlns:cc="http://creativecommons.org/ns#"
                 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
                 <rect style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto"
-                    height="147.5" width="360" y="2.5" x="0" fill="#ffb380" />
-                <path stroke="#333333" stroke-width="5" fill="none" d="m-0.000001625 2.5h360" />
+                    height="147.5" width="360" y="2.5" x="0" fill="#8C8EB1" />
+                <path stroke="#1C3144" stroke-width="5" fill="none" d="m-0.000001625 2.5h360" />
                 <circle id="a" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto"
-                    cx="-9.75" cy="11" r="2.5" fill="#333333" />
+                    cx="-9.75" cy="11" r="2.5" fill="#fff" />
                 <use xlink:href="#a" height="100%" width="100%" y="0" x="0" />
                 <use xlink:href="#a" transform="matrix(.9 0 0 .9 9.025 8.6)" height="100%" width="100%" y="0" x="0" />
                 <use xlink:href="#a" transform="matrix(.8 0 0 .8 18.05 17.2)" height="100%" width="100%" y="0" x="0" />

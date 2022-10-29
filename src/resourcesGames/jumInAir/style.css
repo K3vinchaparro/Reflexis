@@ -1,5 +1,5 @@
 body {
-  background-color: #ffb380;
+  background-color: #8C8EB1;
 }
 .box{
   width: 99vw;
@@ -34,7 +34,7 @@ canvas {
   width: 360px;
   text-align: center;
   font-size: 80px;
-  color: #333333;
+  color: #1C3144;
 }
 
 #start-screen {
@@ -54,18 +54,18 @@ canvas {
 
 #gameover {
   width: 280px;
-  background-color: #333333;
+  background-color: #1C3144;
   color: #ffffff;
   padding: 10px 15px;
-  font-size: 30px;
+  font-size: 40px;
   letter-spacing: 4px;
   margin-left: 20px ;
-  margin-top: 180px;
+  margin-top: 155px;
 }
 
 #replay {
   width: 100px;
-  background-color: #333333;
+  background-color: #1C3144;
   color: #ffffff;
   padding: 10px 20px;
   font-size: 20px;
@@ -76,7 +76,7 @@ canvas {
 
 #replay:hover {
   background-color: #ffffff;
-  color: #333333;
+  color: #1C3144;
   cursor: pointer;
 }
 #facil {
@@ -90,7 +90,7 @@ canvas {
 }
 
 #facil:hover {
-  color: #333333;
+  color: #1C3144;
   cursor: pointer;
 }
 #medio {
@@ -104,7 +104,7 @@ canvas {
 }
 
 #medio:hover {
-  color: #333333;
+  color: #1C3144;
   cursor: pointer;
 }
 #dificil {
@@ -118,7 +118,7 @@ canvas {
 }
 
 #dificil:hover {
-  color: #333333;
+  color: #1C3144;
   cursor: pointer;
 }
 
@@ -140,7 +140,7 @@ canvas {
 }
 
 .ctrl-btn {
-  background-color: #333333;
+  background-color: #1C3144;
   color: #ffffff;
   text-align: center;
   font-size: 18px;
@@ -151,7 +151,7 @@ canvas {
   text-decoration: none;
 }
 .volver{
-  background-color: #333333;
+  background-color: #1C3144;
   padding: 3% 1%;
   height:3%;
   width: 95.5%;
